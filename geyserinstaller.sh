@@ -28,4 +28,4 @@ esac
     echo -e "\e[92mGeysermc has successfully installed!"
     echo -e "For starting geyser type, \e[1mgeyser-start"
     echo -e "For edit config.yml type, \e[1mgeyser-edit"
-    echo -e "For stopping geyser type, \e[1mgeyser stop"
+    echo -e "For stopping geyser type, \e[1mgeyser stop \e[0mwithout '-'"
