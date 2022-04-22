@@ -1,3 +1,3 @@
 # Geysermc-Installer
 
-Geysermc intaller for termux/android
+Geysermc installer for termux/android
