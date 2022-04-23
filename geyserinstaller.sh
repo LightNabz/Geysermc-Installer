@@ -29,7 +29,7 @@ esac
     mv Geyser.jar ~/Geysermc &> /dev/null
     echo nano ~/Geysermc/config.yml >> $PREFIX/bin/geyser-edit 
     chmod +x $PREFIX/bin/geyser-edit &> /dev/null
-    echo java -Xmx1024M -Xms1024M -jar ~/Geysermc/Geyser.jar >> $PREFIX/bin/geyser-start
+    echo cd ~/Geysermc && java -Xmx1024M -Xms1024M -jar ~/Geysermc/Geyser.jar >> $PREFIX/bin/geyser-start
     chmod +x $PREFIX/bin/geyser-start &> /dev/null
     echo ""
 #Fin(n)ish
