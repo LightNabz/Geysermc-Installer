@@ -32,7 +32,12 @@ and turn it off
 ```sh-session
 geyser stop
 ``` 
-or Ctrl + C
+or using  Ctrl + C
+
+
 
 And finally, enjoy your Geysermc for crossplaying
 with your friend in java or hosting Java server on Omlet Arcade!
+geyser-start for starting the Geysermc
+geyser-edit for edit configuration
+geyser stop or Ctrl + C for stopping Geysermc
