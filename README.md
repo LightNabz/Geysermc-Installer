@@ -2,7 +2,7 @@
 
 Geysermc installer for termux/android
 
-#HOW TO INSTALL
+# HOW TO INSTALL
 First, you need to install wget
 
 ```sh-session
