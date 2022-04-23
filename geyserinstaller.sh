@@ -1,3 +1,12 @@
+#credit
+echo -e "\e[34m##################################################"
+echo -e "\e[34m#                                                #"
+echo -e "\e[34m#                                                #"
+echo -e "\e[34m#                MADE BY LIGHNABZ                #"
+echo -e "\e[34m#                                                #"
+echo -e "\e[34m#                                                #"
+echo -e "\e[34m##################################################"
+
 echo -e "\e[1mWelcome to Geysermc Installer!"
 
 #Installing
@@ -25,7 +34,11 @@ esac
     echo ""
 #Fin(n)ish
 
-    echo -e "\e[92mGeysermc has successfully installed!"
+    echo -e "\e[92mGeysermc has successfully installed!\e[0m"
     echo -e "For starting geyser type, \e[1mgeyser-start"
     echo -e "For edit config.yml type, \e[1mgeyser-edit"
     echo -e "For stopping geyser type, \e[1mgeyser stop\e[0m, without '-'"
+    echo ""
+    echo -e "if you get some problem, dm me on discord: \e[4m\e[94mLightNabz#9268"
+    
+    echo -e "\e[0m"
