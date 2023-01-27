@@ -24,12 +24,12 @@ esac
     apt install wget -y &> /dev/null
     apt install nano -y &> /dev/null
     apt install openjdk-17 -y &> /dev/null
-    wget --no-check-certificate https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar &> /dev/null
+    wget --no-check-certificate https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/1286/artifact/bootstrap/standalone/build/libs/Geyser-Standalone.jar &> /dev/null
     mkdir Geysermc &> /dev/null
-    mv Geyser.jar ~/Geysermc &> /dev/null
+    mv Geyser-Standalone.jar ~/Geysermc/ &> /dev/null
     echo "nano ~/Geysermc/config.yml" >> $PREFIX/bin/geyser-edit 
     chmod +x $PREFIX/bin/geyser-edit &> /dev/null
-    echo "cd ~/Geysermc && java -Xmx1024M -Xms1024M -jar ~/Geysermc/Geyser.jar" >> $PREFIX/bin/geyser-start
+    echo "cd ~/Geysermc && java -Xmx1024M -Xms1024M -jar ~/Geysermc/Geyser-Standalone.jar" >> $PREFIX/bin/geyser-start
     chmod +x $PREFIX/bin/geyser-start &> /dev/null
     echo ""
 #Fin(n)ish
