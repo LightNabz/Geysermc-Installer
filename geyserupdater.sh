@@ -20,8 +20,8 @@ read -p "Do you want update Geysermc? (y/n): " yn
                exit 1;;
 esac
 cd ~/Geysermc
-rm -rf Geyser.jar &> /dev/null
-wget --no-check-certificate https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar &> /dev/null
+rm -rf Geyser-Standalone.jar &> /dev/null
+wget --no-check-certificate https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser-Standalone.jar &> /dev/null
 cd ~
 
 #Fin(n)ish
