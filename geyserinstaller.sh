@@ -24,7 +24,7 @@ esac
     apt install wget -y &> /dev/null
     apt install nano -y &> /dev/null
     apt install openjdk-17 -y &> /dev/null
-    wget --no-check-certificate https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/1286/artifact/bootstrap/standalone/build/libs/Geyser-Standalone.jar &> /dev/null
+    wget --no-check-certificate https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/build/libs/Geyser-Standalone.jar &> /dev/null
     mkdir Geysermc &> /dev/null
     mv Geyser-Standalone.jar ~/Geysermc/ &> /dev/null
     echo "nano ~/Geysermc/config.yml" >> $PREFIX/bin/geyser-edit 
