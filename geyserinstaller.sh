@@ -33,6 +33,9 @@ esac
     chmod +x $PREFIX/bin/geyser-edit &> /dev/null
     echo "cd ~/Geysermc && java -Xmx1024M -Xms1024M -jar ~/Geysermc/Geyser-Standalone.jar" >> $PREFIX/bin/geyser-start
     chmod +x $PREFIX/bin/geyser-start &> /dev/null
+    cd ~/Geysermc
+    wget --no-check-certificate https://raw.githubusercontent.com/LightNabz/Geysermc-Installer/main/geyseruninstaller.sh &> /dev/null
+    wget --no-check-certificate https://raw.githubusercontent.com/LightNabz/Geysermc-Installer/main/geyserupdater.sh &> /dev/null
     echo ""
 #Fin(n)ish
 
