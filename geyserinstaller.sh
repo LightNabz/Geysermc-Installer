@@ -8,6 +8,8 @@ echo -e "\e[34m#                                                #"
 echo -e "\e[34m##################################################"
 
 echo -e "\e[0m\e[1mWelcome to Geysermc Installer!"
+echo -e "\e[0m\e[1mThis is Unofficial Geysermc Installer"
+echo -e "\e[0m\e[1mCredit: \e[4m\e[94mhttps://geysermc.org'
 
 #Installing
 read -p "Do you want install Geysermc? (y/n): " yn
@@ -35,9 +37,9 @@ esac
 #Fin(n)ish
 
     echo -e "\e[92mGeysermc has successfully installed!"
-    echo -e "\e[0mFor starting geyser type, \e[42mgeyser-start"
-    echo -e "\e[0mFor edit config.yml type, \e[42mgeyser-edit"
-    echo -e "\e[0mFor stopping geyser type, \e[42mgeyser stop\e[0m, without '-'"
+    echo -e "\e[0mFor starting geyser type geyser-start"
+    echo -e "\e[0mFor edit config.yml type geyser-edit"
+    echo -e "\e[0mFor stopping geyser type geyser stop, without '-'"
     echo ""
     echo -e "\e[0mIf you get some problem, PM me on Discord: \e[4m\e[94mLightNabz#9268"
     
