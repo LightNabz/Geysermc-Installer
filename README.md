@@ -38,7 +38,7 @@ or using  Ctrl + C
 And finally, enjoy your Geysermc for crossplaying
 with your friend in java or hosting Java server on Omlet Arcade!
 
-#HOW TO UPDATE 
+# HOW TO UPDATE 
 Just type,
 ```sh-session
 geyser-update
@@ -47,12 +47,12 @@ geyser-update
 and then, geyser updater will start updating. It's may take some times.
 After it finished, Geyser is updated :)
 
-#HOW TO UNINSTALL
+# HOW TO UNINSTALL
 ```sh-session
 geyser-uninstall
 ```
 
-#COMMANDS
+# COMMANDS
 
 geyser-start for starting the Geysermc
 geyser-edit for edit configuration
