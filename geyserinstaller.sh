@@ -35,7 +35,9 @@ esac
     chmod +x $PREFIX/bin/geyser-start &> /dev/null
     cd ~/Geysermc
     wget --no-check-certificate https://raw.githubusercontent.com/LightNabz/Geysermc-Installer/main/geyseruninstaller.sh &> /dev/null
+    echo "bash ~/Geysermc/geyseruninstaller.sh" >> $PREFIX/bin/geyser-delete
     wget --no-check-certificate https://raw.githubusercontent.com/LightNabz/Geysermc-Installer/main/geyserupdater.sh &> /dev/null
+    echo "bash ~/Geysermc/geyserupdater.sh" >> $PREFIX/bin/geyser-update
     echo ""
 #Fin(n)ish
 
