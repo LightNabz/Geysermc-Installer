@@ -20,8 +20,11 @@ read -p "Do you want uninstall Geysermc? (y/n): " yn
                exit 1;;
 esac
 
-  rm -rf ~/Geysermc
+  rm -rf $PREFIX/bin/geyser-update
   rm -rf $PREFIX/bin/geyser-start
   rm -rf $PREFIX/bin/geyser-edit
-  
+  rm -rf $PREFIX/bin/geyser-delete
+
   echo -e "\e[92mGeysermc has succesfully uninstalled!"
+  
+  rm -rf ~/Geysermc
