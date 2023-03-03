@@ -35,12 +35,25 @@ geyser stop
 or using  Ctrl + C
 
 
-
 And finally, enjoy your Geysermc for crossplaying
 with your friend in java or hosting Java server on Omlet Arcade!
 
+#HOW TO UPDATE 
+Just type,
+```sh-session
+geyser-update
+```
 
+and then, geyser updater will start updating. It's may take some times.
+After it finished, Geyser is updated :)
+
+#HOW TO UNINSTALL
+```sh-session
+geyser-uninstall
+```
+
+#COMMANDS
 
 geyser-start for starting the Geysermc
- geyser-edit for edit configuration
- geyser stop or Ctrl + C for stopping Geysermc
+geyser-edit for edit configuration
+geyser stop or Ctrl + C for stopping Geysermc
