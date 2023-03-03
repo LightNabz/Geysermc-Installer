@@ -55,5 +55,5 @@ geyser-uninstall
 # COMMANDS
 
 geyser-start for starting the Geysermc
-geyser-edit for edit configuration
-geyser stop or Ctrl + C for stopping Geysermc
+ geyser-edit for edit configuration
+ geyser stop or Ctrl + C for stopping Geysermc
