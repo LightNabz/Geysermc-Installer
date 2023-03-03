@@ -49,7 +49,7 @@ After it finished, Geyser is updated :)
 
 # HOW TO UNINSTALL
 ```sh-session
-geyser-uninstall
+geyser-delete
 ```
 
 # COMMANDS
