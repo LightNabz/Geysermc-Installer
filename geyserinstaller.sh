@@ -9,7 +9,7 @@ echo -e "\e[34m##################################################"
 
 echo -e "\e[0m\e[1mWelcome to Geysermc Installer!"
 echo -e "\e[0m\e[1mThis is Unofficial Geysermc Installer"
-echo -e "\e[0m\e[1mCredit: \e[4m\e[94mhttps://geysermc.org'
+echo -e "\e[0m\e[1mCredit to: \e[4m\e[94mhttps://geysermc.org'
 
 #Installing
 read -p "Do you want install Geysermc? (y/n): " yn
