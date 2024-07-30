@@ -12,7 +12,7 @@ echo -e "\e[0m\e[1mThis is Unofficial Geysermc Installer"
 echo -e "\e[0m\e[1mCredit to: \e[4m\e[94mhttps://geysermc.org'
 
 #Installing
-read -p "Do you want install Geysermc? (y/n): " yn
+read -p "Do you want to proceed installing Geysermc? [y/n]: " yn
 
     case $yn in
         [yY] ) echo Start Downloading, This may take a few minutes..;;
