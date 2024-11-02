@@ -1,0 +1,56 @@
+# Ad Networks
+adtago.s3.amazonaws.com
+analyticsengine.s3.amazonaws.com
+analytics.s3.amazonaws.com
+advice-ads.s3.amazonaws.com
+pagead2.googlesyndication.com
+adservice.google.com
+pagead2.googleadservices.com
+afs.googlesyndication.com
+static.doubleclick.net
+ads30.adcolony.com
+
+# Analytics Trackers
+ssl.google-analytics.com
+analytics.google.com
+google-analytics.com
+click.googleanalytics.com
+events.hotjar.io
+cdn-test.mouseflow.com
+gtm.mouseflow.com
+api.mouseflow.com
+freshmarketer.com
+claritybt.freshmarketer.com
+fwtracks.freshmarketer.com
+luckyorange.com
+api.luckyorange.com
+realtime.luckyorange.com
+cdn.luckyorange.com
+w1.luckyorange.com
+cs.luckyorange.net
+upload.luckyorange.net
+settings.luckyorange.net
+stats.wp.com
+
+# Error Tracking
+notify.bugsnag.com
+sessions.bugsnag.com
+api.bugsnag.com
+app.bugsnag.com
+browser.sentry-cdn.com
+
+# Social Trackers
+static.ads-twitter.com
+ads-api.twitter.com
+ads.linkedin.com
+analytics.pointdrive.linkedin.com
+ads.pinterest.com
+log.pinterest.com
+analytics.pinterest.com
+trk.pinterest.com
+events.reddit.com
+
+# OEM Trackers
+open.oneplus.net
+smetrics.samsung.com
+nmetrics.samsung.com
